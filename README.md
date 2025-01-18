@@ -1,1 +1,41 @@
-# Conecta-4-----4-en-Raya
+# Conecta 4 - JavaFX
+
+Este proyecto es una implementación del clásico juego **Conecta 4** desarrollado en **Java** utilizando **JavaFX** para la interfaz gráfica.
+
+## Descripción
+
+El juego permite a un jugador enfrentarse a una máquina en una serie de partidas para determinar el ganador. Cada jugador (rojo y amarillo) coloca fichas en un tablero de 7 columnas por 6 filas, tratando de conectar cuatro fichas del mismo color en línea (horizontal, vertical o diagonal) antes que el oponente.
+
+### Características principales
+
+- **Modo jugador vs. máquina**: compite contra una inteligencia artificial básica que simula el comportamiento de un oponente humano.
+- **Interfaz gráfica intuitiva**: destaca el turno actual y cambia el color de las fichas en tiempo real.
+- **Sistema de puntuación**: seguimiento del número de victorias necesarias para determinar el campeón.
+- **Modo oscuro y claro**: cambia la apariencia visual de la aplicación.
+- **Reinicio del tablero**: permite empezar nuevas rondas sin cerrar la aplicación.
+
+## Captura de pantalla
+
+Incluye una captura de pantalla del juego en funcionamiento en tu repositorio para mostrar la interfaz.
+
+> **Nota**: Asegúrate de incluir una imagen en el directorio del repositorio y referenciarla aquí, por ejemplo:
+> `![Captura del juego](ruta/de/la/captura.png)`
+
+## Instalación y ejecución
+
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/tuusuario/conecta4-javafx.git
+   ```
+2. Importa el proyecto en tu IDE (por ejemplo, NetBeans o IntelliJ IDEA).
+3. Ejecuta la clase principal del proyecto para iniciar el juego.
+
+## Integrantes del grupo
+
+- **Alexey Omelchuk Yashchuk**
+- **Eduard Calvo Pineda**
+- **Marc Ramaker Sendra**
+
+## Grupo: **INF-ADE**
+
+Esperamos que disfrutes jugando y explorando esta implementación de Conecta 4. ¡Gracias por visitar nuestro proyecto!
