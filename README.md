@@ -18,8 +18,10 @@ El juego permite a un jugador enfrentarse a una máquina en una serie de partida
 
 Incluye una captura de pantalla del juego en funcionamiento en tu repositorio para mostrar la interfaz.
 
-![Captura del juego en modo Oscuro](oscuro.jpg)
-![Captura del juego en modo Claro](claro.jpg)
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="oscuro.jpg" alt="Modo Oscuro" width="400" style="margin-right: 10px;">
+  <img src="claro.jpg" alt="Modo Claro" width="400" style="margin-left: 10px;">
+</div>
 
 ## Instalación y ejecución
 
