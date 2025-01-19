@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="600.0" stylesheets="@../estilos/CreatePlayer.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.MenuController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.20001220703125" minWidth="10.0" prefWidth="291.19996337890626" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="315.20001220703125" minWidth="10.0" prefWidth="309.6000366210937" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="149.5999755859375" minHeight="10.0" prefHeight="146.79998779296875" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="84.39998779296874" minHeight="10.0" prefHeight="58.800012207031244" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="73.59998779296876" minHeight="10.0" prefHeight="23.800006103515642" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="95.60001220703128" minHeight="10.0" prefHeight="69.39999389648438" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="184.00001220703126" minHeight="10.0" prefHeight="76.80000000000001" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="165.6000061035156" minHeight="1.5999877929687614" prefHeight="108.80000000000001" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CUATRO EN RAYA" wrappingWidth="363.07086181640625" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Text>
+      <Button fx:id="bottonMaquina" mnemonicParsing="false" onAction="#contraMaquina" prefHeight="50.0" prefWidth="211.0" styleClass="large-button" text="Contra la Máquina" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+      <Button fx:id="bottonOtroJugador" mnemonicParsing="false" onAction="#contraJugador" prefHeight="50.0" prefWidth="209.0" styleClass="large-button" text="Contra otro jugador" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="TOP" />
+      <Button fx:id="bottonRanking" mnemonicParsing="false" onAction="#ranking" prefHeight="42.0" prefWidth="85.0" styleClass="small-button" text="Ranking" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets left="100.0" top="50.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="bottonPerfil" mnemonicParsing="false" onAction="#perfil" prefHeight="46.0" prefWidth="90.0" styleClass="small-button" text="Perfil" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets right="100.0" top="50.0" />
+         </GridPane.margin>
+      </Button>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="field-label" text="Jugar:" wrappingWidth="63.819580078125" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button mnemonicParsing="false" onAction="#cerrarSesion" styleClass="small-button-atras" text="Cerrar Sesión" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <GridPane.margin>
+            <Insets left="170.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>

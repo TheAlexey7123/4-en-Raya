@@ -1,0 +1,78 @@
+/* Fondo de toda la aplicación */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #87CEEB, #98FB98); /* Azul cielo con toque verde */
+}
+
+/* Estilo del título */
+.title {
+    -fx-font-size: 24px; /* Tamaño grande */
+    -fx-font-weight: bold; /* Negrita */
+    -fx-text-fill: #000000; /* Color negro */
+}
+
+/* Estilo de los campos (usuario, contraseña, etc.) */
+.field-label {
+    -fx-font-size: 16px; /* Tamaño mediano */
+    -fx-font-family: "Arial", sans-serif; /* Fuente distinta */
+    -fx-text-fill: #333333; /* Color gris oscuro */
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-background-color: #FFFFFF; /* Fondo blanco */
+    -fx-border-color: #87CEEB; /* Borde azul claro */
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Botón grande con bordes llamativos */
+.large-button {
+    -fx-font-size: 16px; /* Texto grande */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+    -fx-background-color: #1E90FF; /* Fondo azul intenso */
+    -fx-border-color: #000000; /* Borde negro llamativo */
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px 20px; /* Tamaño del botón */
+    -fx-cursor: hand; /* Cursor tipo mano */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0.3, 0, 0);
+}
+
+.large-button:hover {
+    -fx-background-color: #4682B4; /* Cambia a azul más oscuro al pasar el ratón */
+}
+
+/* Botón pequeño menos llamativo */
+.small-button {
+    -fx-font-size: 14px; /* Texto más pequeño */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+    -fx-background-color: #9999ff; /* Fondo azul claro */
+    -fx-border-color: #5F9EA0; /* Borde azul suave */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px; /* Tamaño reducido */
+    -fx-cursor: hand;
+}
+
+.small-button:hover {
+    -fx-background-color: #5F9EA0; /* Azul más oscuro al pasar el ratón */
+}
+
+.small-button-atras{
+    -fx-font-size: 14px; /* Texto más pequeño */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+    -fx-background-color: #9999ff; /* Fondo azul claro */
+    -fx-border-color: #000000; /* Borde azul suave */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px; /* Tamaño reducido */
+    -fx-cursor: hand;
+    
+}
+
+.small-button-atras:hover {
+    -fx-background-color: #5F9EA0; /* Azul más oscuro al pasar el ratón */
+}
