@@ -47,6 +47,4 @@ Incluye una captura de pantalla del juego en funcionamiento en tu repositorio pa
 - **Eduard Calvo Pineda**
 - **Marc Ramaker Sendra**
 
-## Grupo: **INF-ADE**
-
-Esperamos que disfrutes jugando y explorando esta implementación de Conecta 4. ¡Gracias por visitar nuestro proyecto!
+Grupo: **INF-ADE**
