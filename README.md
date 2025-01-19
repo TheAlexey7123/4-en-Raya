@@ -1,6 +1,6 @@
 # Conecta 4 - JavaFX
 
-Este proyecto es una implementación del clásico juego **Conecta 4** desarrollado en **Java** utilizando **JavaFX** para la interfaz gráfica.
+Este proyecto es una implementación del clásico juego **Conecta 4** o **4 en Raya** desarrollado en **Java** utilizando **JavaFX** para la interfaz gráfica.
 
 ## Descripción
 
