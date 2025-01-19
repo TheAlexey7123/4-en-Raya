@@ -1,4 +1,7 @@
-# Conecta 4 - JavaFX <img src="4raya.png" alt="Logo del juego" width="80" style="vertical-align: middle; margin-left: 10px;">
+# Conecta 4 - JavaFX <div style="display: flex; justify-content: space-between; align-items: center;">
+  <h1>Conecta 4 - JavaFX</h1>
+  <img src="4raya.png" alt="Logo del juego" width="80" style="margin-left: 10px;">
+</div>
 
 Este proyecto es una implementación del clásico juego **Conecta 4** o **4 en Raya** desarrollado en **Java** utilizando **JavaFX** para la interfaz gráfica.
 
