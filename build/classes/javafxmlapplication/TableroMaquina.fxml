@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.TableroMaquinaController">
+   <center>
+      <StackPane>
+         <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" onMouseClicked="#caerBola" prefHeight="372.0" prefWidth="627.0" style="-fx-border-color: white;">
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <StackPane.margin>
+               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </StackPane.margin>
+            <children>
+               <VBox fx:id="col0" alignment="CENTER" prefHeight="247.0" prefWidth="92.0" />
+               <VBox fx:id="col1" alignment="CENTER" prefHeight="186.0" prefWidth="92.0" GridPane.rowIndex="1" />
+               <VBox fx:id="col2" alignment="CENTER" prefHeight="186.0" prefWidth="92.0" GridPane.rowIndex="2" />
+               <VBox fx:id="col3" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="3" />
+               <VBox fx:id="col4" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="4" />
+               <VBox fx:id="col5" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="5" />
+               <VBox fx:id="col10" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" />
+               <VBox fx:id="col11" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+               <VBox fx:id="col12" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               <VBox fx:id="col13" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               <VBox fx:id="col14" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+               <VBox fx:id="col15" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+               <VBox fx:id="col20" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" />
+               <VBox fx:id="col21" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+               <VBox fx:id="col22" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
+               <VBox fx:id="col23" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" />
+               <VBox fx:id="col24" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" />
+               <VBox fx:id="col25" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" />
+               <VBox fx:id="col30" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" />
+               <VBox fx:id="col31" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+               <VBox fx:id="col32" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+               <VBox fx:id="col33" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+               <VBox fx:id="col34" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+               <VBox fx:id="col35" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+               <VBox fx:id="col40" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" />
+               <VBox fx:id="col41" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+               <VBox fx:id="col42" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+               <VBox fx:id="col43" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+               <VBox fx:id="col44" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+               <VBox fx:id="col45" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+               <VBox fx:id="col50" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" />
+               <VBox fx:id="col60" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" />
+               <VBox fx:id="col61" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+               <VBox fx:id="col62" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+               <VBox fx:id="col63" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+               <VBox fx:id="col64" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+               <VBox fx:id="col65" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+               <VBox fx:id="col51" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+               <VBox fx:id="col52" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+               <VBox fx:id="col53" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+               <VBox fx:id="col54" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+               <VBox fx:id="col55" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            </children>
+         </GridPane>
+      </StackPane>
+   </center>
+   <top>
+      <VBox alignment="CENTER" prefHeight="85.0" prefWidth="687.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="turnoDe" alignment="CENTER" contentDisplay="CENTER" prefHeight="161.0" prefWidth="687.0" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnOscuro" fitHeight="31.0" fitWidth="60.0" onMouseClicked="#cambiarModoOscuro" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../resources/images/modoOscuro.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

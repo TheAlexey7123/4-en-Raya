@@ -1,0 +1,94 @@
+.root {
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-text-fill: black;
+}
+
+#gridPane {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 2;
+}
+
+.columna:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #88ccee;
+    -fx-border-width: 2;
+    -fx-border-color: #a6a6a6;
+    -fx-border-radius: 5px;
+}
+
+.columna {
+    -fx-background-color: #eee;
+    -fx-border-color: #ddd;
+}
+
+.columna-hover {
+    -fx-background-color: #d7f7ff;
+    -fx-border-color: #a6a6a6;
+}
+
+.winning-rect {
+    -fx-fill: #557a95;
+    -fx-opacity: 0.5;
+    -fx-stroke-width: 1;
+    -fx-stroke: #ff0089;
+    -fx-arc-height: 10px;
+    -fx-arc-width: 10px;
+}
+
+.col {
+    -fx-border-width: 1 1 2 1;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-style: dashed solid solid solid;
+}
+
+.col-filled:hover {
+    -fx-background-color: #ffbfbf !important;
+    -fx-border-color: #ff4f4f !important;
+}
+
+.col-human:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #d7f7ff;
+    -fx-border-width: 2;
+    -fx-border-color: #a6a6a6;
+    -fx-border-radius: 5px;
+}
+
+.circle-ai {
+    -fx-stroke-width: 0;
+    -fx-fill: #00f504;
+}
+
+.circle-human {
+    -fx-stroke-width: 0;
+    -fx-fill: #1e90ff;
+}
+
+.human {
+    -fx-text-fill: #1e90ff;
+    -fx-background-color: #eafffc !important;
+}
+
+.ai {
+    -fx-text-fill: #00f531;
+    -fx-background-color: #eaffe4 !important;
+}
+
+.final {
+    -fx-text-fill: #ff0089;
+}
+
+#pneOver {
+    -fx-background-color: rgba(100, 98, 98, 0.43);
+    -fx-background-radius: 10px;
+}
+
+.jfx-button:hover {
+    -fx-text-fill: black !important;
+}

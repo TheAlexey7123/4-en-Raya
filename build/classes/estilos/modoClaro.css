@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: white;
+}
+
+.label{
+    -fx-text-fill: black;
+}
+
+#gridPane{
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 2;
+}
+
+.columna:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #88ccee;
+    -fx-border-width: 2;
+    -fx-border-color: #a6a6a6;
+    -fx-border-radius: 5px;
+}
+
+.columna {
+    -fx-background-color: #eee;
+    -fx-border-color: #e8e7bb;
+}
+.columna-hover {
+    -fx-background-color: #d7f7ff;
+    -fx-border-color: #e8e7bb;
+}

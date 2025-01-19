@@ -1,0 +1,31 @@
+.root {
+    -fx-background-color: #0d1017;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+#gridPane {
+    -fx-background-color: #0d1017; 
+    -fx-border-color: white;
+    -fx-border-width: 2;
+}
+
+.columna {
+    -fx-background-color: #0d1017;
+    -fx-border-color: #fcfafa;
+    -fx-border-width: 1;
+}
+
+.columna:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #b8b4b4;
+    -fx-border-color: #888;
+    -fx-border-width: 2;
+    -fx-border-radius: 5px;
+}
+
+.columna-hover {
+    -fx-background-color: #555;
+}
