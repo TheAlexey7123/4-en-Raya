@@ -18,8 +18,8 @@ El juego permite a un jugador enfrentarse a una máquina en una serie de partida
 
 Incluye una captura de pantalla del juego en funcionamiento en tu repositorio para mostrar la interfaz.
 
-> **Nota**: Asegúrate de incluir una imagen en el directorio del repositorio y referenciarla aquí, por ejemplo:
-> `![Captura del juego](ruta/de/la/captura.png)`
+![Captura del juego en modo Oscuro](oscuro.png)
+![Captura del juego en modo Claro](claro.png)
 
 ## Instalación y ejecución
 
