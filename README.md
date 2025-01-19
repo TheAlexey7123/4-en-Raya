@@ -4,7 +4,7 @@
       <h1>4 en Raya - JavaFX</h1>
     </td>
     <td align="right" style="vertical-align: middle; border: none;">
-      <img src="4raya.png" alt="Logo del juego" width="80">
+      <img src="/src/resources/images/4raya.png" alt="Logo del juego" width="80">
     </td>
   </tr>
 </table>
@@ -14,8 +14,8 @@ Este proyecto es una implementación del clásico juego **4 en Raya** o **Conect
 ## Captura de pantalla
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="oscuro.jpg" alt="Modo Oscuro" width="400" style="margin-right: 10px;">
-  <img src="claro.jpg" alt="Modo Claro" width="400" style="margin-left: 10px;">
+  <img src="/src/resources/images/oscuro.jpg" alt="Modo Oscuro" width="400" style="margin-right: 10px;">
+  <img src="/src/resources/images/claro.jpg" alt="Modo Claro" width="400" style="margin-left: 10px;">
 </div>
 
 ## Instalación y ejecución
