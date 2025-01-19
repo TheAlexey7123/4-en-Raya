@@ -1,9 +1,9 @@
-<table style="width: 100%;">
+<table style="width: 100%; border-collapse: collapse; border: none;">
   <tr>
-    <td align="left" style="vertical-align: middle;">
+    <td align="left" style="vertical-align: middle; border: none;">
       <h1>Conecta 4 - JavaFX</h1>
     </td>
-    <td align="right" style="vertical-align: middle;">
+    <td align="right" style="vertical-align: middle; border: none;">
       <img src="4raya.png" alt="Logo del juego" width="80">
     </td>
   </tr>
