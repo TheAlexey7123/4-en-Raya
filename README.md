@@ -17,15 +17,15 @@ El juego permite a un jugador enfrentarse a una máquina en una serie de partida
 
 ### Características principales
 
-- **Modo jugador vs. máquina**: compite contra una inteligencia artificial básica que simula el comportamiento de un oponente humano.
-- **Interfaz gráfica intuitiva**: destaca el turno actual y cambia el color de las fichas en tiempo real.
-- **Sistema de puntuación**: seguimiento del número de victorias necesarias para determinar el campeón.
-- **Modo oscuro y claro**: cambia la apariencia visual de la aplicación.
-- **Reinicio del tablero**: permite empezar nuevas rondas sin cerrar la aplicación.
+- **Jugador vs. Máquina**: compite contra una IA básica.  
+- **Gestión de usuarios**: inicio de sesión, registro y perfil.  
+- **Filtros y rankings**: ordena por victorias, derrotas, etc.  
+- **Interfaz gráfica**: turno actual, colores dinámicos.  
+- **Puntuación**: seguimiento para determinar el campeón.  
+- **Temas**: modo oscuro y claro.  
+- **Reinicio**: comienza nuevas rondas sin cerrar.  
 
 ## Captura de pantalla
-
-Incluye una captura de pantalla del juego en funcionamiento en tu repositorio para mostrar la interfaz.
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="oscuro.jpg" alt="Modo Oscuro" width="400" style="margin-right: 10px;">
