@@ -27,7 +27,7 @@ Incluye una captura de pantalla del juego en funcionamiento en tu repositorio pa
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/TheAlexey7123/Conecta-4-----4-en-Raya.git
+   git clone https://github.com/TheAlexey7123/4-en-Raya.git
    ```
 2. Importa el proyecto en tu IDE (por ejemplo, NetBeans o IntelliJ IDEA).
 3. Ejecuta la clase principal del proyecto para iniciar el juego.
