@@ -15,16 +15,6 @@ Este proyecto es una implementación del clásico juego **4 en Raya** o **Conect
 
 El juego permite a un jugador enfrentarse a una máquina en una serie de partidas para determinar el ganador. Cada jugador (rojo y amarillo) coloca fichas en un tablero de 7 columnas por 6 filas, tratando de conectar cuatro fichas del mismo color en línea (horizontal, vertical o diagonal) antes que el oponente.
 
-### Características principales
-
-- **Jugador vs. Máquina**: compite contra una IA básica.  
-- **Gestión de usuarios**: inicio de sesión, registro y perfil.  
-- **Filtros y rankings**: ordena por victorias, derrotas, etc.  
-- **Interfaz gráfica**: turno actual, colores dinámicos.  
-- **Puntuación**: seguimiento para determinar el campeón.  
-- **Temas**: modo oscuro y claro.  
-- **Reinicio**: comienza nuevas rondas sin cerrar.  
-
 ## Captura de pantalla
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
