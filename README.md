@@ -18,8 +18,8 @@ El juego permite a un jugador enfrentarse a una máquina en una serie de partida
 
 Incluye una captura de pantalla del juego en funcionamiento en tu repositorio para mostrar la interfaz.
 
-![Captura del juego en modo Oscuro](oscuro.png)
-![Captura del juego en modo Claro](claro.png)
+![Captura del juego en modo Oscuro](oscuro.jpg)
+![Captura del juego en modo Claro](claro.jpg)
 
 ## Instalación y ejecución
 
