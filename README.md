@@ -11,10 +11,6 @@
 
 Este proyecto es una implementación del clásico juego **4 en Raya** o **Conecta 4** desarrollado en **Java** utilizando **JavaFX** y **SceneBuilder** para la interfaz gráfica.
 
-## Descripción
-
-El juego permite a un jugador enfrentarse a una máquina en una serie de partidas para determinar el ganador. Cada jugador (rojo y amarillo) coloca fichas en un tablero de 7 columnas por 6 filas, tratando de conectar cuatro fichas del mismo color en línea (horizontal, vertical o diagonal) antes que el oponente.
-
 ## Captura de pantalla
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
